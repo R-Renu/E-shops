@@ -9,7 +9,7 @@ export default function Home(){
         <HomeBanner/>
         <Container>
         <Categorysection/>
-        {/* <Newarrival/> */}
+        <Newarrival/>
         </Container>
         </>
     );
@@ -67,6 +67,23 @@ function Categorysection(){
             </Col>
        
         </Row>
+        </>
+    );
+}
+
+function Newarrival(){
+    return(
+        <>
+           <Row className="my-5">
+            <h1 className="text-center">New Arrivals</h1>
+            <hr className="w-25 border-5 border-danger mx-auto"></hr>
+            <div className="d-flex justify-content-center text-uppercase my-4">
+                <div className="p-2 border border-1 bg-danger text-light text-center fw-semibold" style={{width:100}}>All</div>
+                <div className="p-2 border border-1 text-center"  style={{width:100}}>women's</div>
+                <div  className="p-2 border border-1 text-center"  style={{width:150}}>Accesorie's</div>
+                 <div  className="p-2 border border-1 text-center"  style={{width:100}}>Men's</div>
+            </div>
+           </Row>
         </>
     );
 }
