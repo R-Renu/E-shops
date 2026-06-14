@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, CardImg, CardText, Carousel, CarouselCaption, CarouselItem, Col, Container, Row,  } from "react-bootstrap";
+import { Button, Card, CardBody, CardImg, CardText, Carousel, CarouselCaption, CarouselItem, Col, Container, Row, CardFooter } from "react-bootstrap";
 import Header from "../common/Header";
 import { FaHeart } from "react-icons/fa";
 
@@ -84,6 +84,63 @@ function Newarrival(){
                  <div  className="p-2 border border-1 text-center"  style={{width:100}}>Men's</div>
             </div>
            </Row>
+           <Row>
+            <Col lg='3' md="6" >
+                <Card>
+                    <FaHeart className="ms-4 mt-4 mb-0 h4"/>
+                    <CardImg src="img/product_1.png"></CardImg>
+                    <CardBody className="text-center">
+                        <CardText>
+                            <b className="h5">Fujifilm X100T 16 MP Digital Camera (Silver)</b>
+                            <p className="text-danger my-2 fw-bold">Rs. 2300 <del className="text-secondary">Rs. 5000</del></p>
+                        </CardText>
+                    </CardBody>
+                    <CardFooter className="bg-danger text-center text-light">Add to Cart</CardFooter>
+                </Card>
+            </Col>
+           
+            <Col lg='3' md="6" >
+                <Card>
+                    <FaHeart className="ms-4 mt-4 mb-0 h4"/>
+                    <CardImg src="img/product_2.png"></CardImg>
+                    <CardBody className="text-center">
+                        <CardText>
+                            <b className="h5">Fujifilm X100T 16 MP Digital Camera (Silver)</b>
+                            <p className="text-danger my-2 fw-bold">Rs. 2300 <del className="text-secondary">Rs. 5000</del></p>
+                        </CardText>
+                    </CardBody>
+                    <CardFooter className="bg-danger text-center text-light">Add to Cart</CardFooter>
+                </Card>
+            </Col>
+
+             <Col lg='3' md="6" >
+                <Card>
+                    <FaHeart className="ms-4 mt-4 mb-0 h4"/>
+                    <CardImg src="img/product_3.png"></CardImg>
+                    <CardBody className="text-center">
+                        <CardText>
+                            <b className="h5">Fujifilm X100T 16 MP Digital Camera (Silver)</b>
+                            <p className="text-danger my-2 fw-bold">Rs. 2300 <del className="text-secondary">Rs. 5000</del></p>
+                        </CardText>
+                    </CardBody>
+                    <CardFooter className="bg-danger text-center text-light">Add to Cart</CardFooter>
+                </Card>
+            </Col>
+
+             <Col lg='3' md="6" >
+                <Card>
+                    <FaHeart className="ms-4 mt-4 mb-0 h4"/>
+                    <CardImg src="img/product_4.png"></CardImg>
+                    <CardBody className="text-center">
+                        <CardText>
+                            <b className="h5">Fujifilm X100T 16 MP Digital Camera (Silver)</b>
+                            <p className="text-danger my-2 fw-bold">Rs. 2300 <del className="text-secondary">Rs. 5000</del></p>
+                        </CardText>
+                    </CardBody>
+                    <CardFooter className="bg-danger text-center text-light">Add to Cart</CardFooter>
+                </Card>
+            </Col>
+        </Row>
         </>
     );
 }
