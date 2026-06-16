@@ -1,0 +1,80 @@
+  .deal-of-the-week {
+      background-color: rgba(211, 211, 211, 0.575);
+  
+  }
+  
+  .deal-of-the-week img{
+      margin-left: 18%;
+  
+  }
+ 
+ .right-box{
+     margin-top: 15%;
+ }
+ 
+ 
+ .deal-text{
+     text-align: center;
+ 
+ }
+ .deal-text p{
+     font-size: 40px;
+     font-weight: 500;
+ }
+ 
+ .deal-text div{
+     height: 5px;
+     width: 60px;
+     margin: auto;
+     background-color: rgb(236, 80, 80);
+ }
+ 
+ .timer-container{
+     display: flex;
+     justify-content: space-around ;
+     padding: 60px 100px 0px 100px;
+ }
+ .timer-segment{
+     background-color: white;
+     padding: 15px 30px 15px 30px;
+     border-radius: 50%;
+     height: 50%;
+     width: 50%;
+     margin-right: 10px;
+     text-align: center;
+ }
+ .timer-value{
+ 
+     font-size: 36px;
+     font-weight: 800;
+     color: rgb(236, 80, 80);
+ 
+ }
+ 
+ .timer-label{
+ 
+     font-size: 16px;
+     font-weight: 600;
+     color: #51545f;
+ 
+ }
+  .shop-now{
+     margin: auto;
+     text-align: center;
+     margin-top: 10%;
+    border-radius: 7%;
+    background-color:black ;
+
+    width: 130px;
+    height: 30px;
+/* padding: 10px 20px 10px 20px; */
+
+}
+
+.shop-now a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 14px;
+}
