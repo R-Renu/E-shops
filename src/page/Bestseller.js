@@ -1,12 +1,14 @@
-import { Card, CardBody, CardImg, CardText, Col, } from "react-bootstrap";
-import { FaHeart } from "react-icons/fa";
+import { Card, CardBody, CardImg, CardText, Col, Row } from "react-bootstrap";
+import { FaClock, FaHeart, FaTruck, FaUndo } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { FaMoneyBill1 } from "react-icons/fa6";
 export default function Bestsel() {
     return (
         <>
             <BestSeller />
+            <Features/>
         </>
     );
 }
@@ -109,3 +111,64 @@ function BestSeller() {
         </>
     )
 }
+function Features() {
+    return (
+        <>
+         <div className="feature-section my-5   ">
+                <Row className="d-flex justify-content-between align-items-center bg-dark text-white m-0 py-3">
+                    <Col lg="3" md="6" sm="12" className="feature">
+                        <div className="feature-segment">
+                            <FaTruck className="feature-icon" />
+                            <div className="feature-text">
+                                <h4>free shipping</h4>
+                                <p>Suffered Alteration in Some Form
+                                
+                                </p>
+                            </div>
+                        
+                        </div>
+                    </Col>
+                    <Col lg="3" md="6" sm="12" className="feature">
+                        <div className="feature-segment">
+                            <FaMoneyBill1 className="feature-icon" />
+                            <div className="feature-text">
+                                <h4>free shipping</h4>
+                                <p>The Internet Tend To Repeat
+                                
+                                </p>
+                            </div>
+                        
+                        </div>
+                    </Col>
+                    <Col lg="3" md="6" sm="12"className="feature">
+                        <div className="feature-segment">
+                            <FaUndo className="feature-icon" />
+                            <div className="feature-text">
+                                <h4>free shipping</h4>
+                                <p>Making it Look Like Readable
+                                
+                                </p>
+                            </div>
+                        
+                        </div>
+                    </Col>
+                    <Col lg="3" md="6" sm="12" className="feature">
+                        <div className="feature-segment">
+                            <FaClock className="feature-icon" />
+                            <div className="feature-text">
+                                <h4>free shipping</h4>
+                                <p>8AM - 09PM
+                                
+                                </p>
+                            </div>
+                        
+                        </div>
+                    </Col>
+                    </Row>
+                    </div>
+        </>
+        );
+        }
+           
+               
+                 
